@@ -1,0 +1,35 @@
+aside .active {
+  background-color: #f29724;
+  transition: 0.3s all;
+}
+aside .active:hover {
+  scale: 1.05;
+}
+aside .box {
+  border: 1px solid #ccc;
+  transition: 0.3s all;
+}
+aside .box:hover {
+  scale: 1.05;
+}
+
+.options {
+  background-color: #f4f2ee;
+}
+.options h1 {
+  background-image: linear-gradient(to right, #f29724, rgba(202, 16, 35, 0.768627451), #c90519);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+.options .meals ul a {
+  transition: 0.3s all;
+}
+.options .meals ul a:hover {
+  color: #475569;
+  background-color: #f8fafc;
+}
+.options .meals ul a:focus {
+  color: #fff;
+  background-color: #000;
+}/*# sourceMappingURL=home.component.css.map */

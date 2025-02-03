@@ -1,0 +1,43 @@
+$main-color: #f29724;
+
+aside {
+  .active {
+    &:hover {
+      scale: 1.05;
+      // box-shadow: 0 0 0 0 none;
+    }
+    background-color: $main-color;
+    transition: 0.3s all;
+  }
+  .box {
+    &:hover {
+      scale: 1.05;
+    }
+    border: 1px solid #ccc;
+    transition: 0.3s all;
+  }
+}
+
+.options {
+  background-color: #f4f2ee;
+  h1 {
+    background-image: linear-gradient(to right, #f29724, #ca1023c4, #c90519);
+    background-clip: text;
+    color: transparent;
+  }
+  .meals {
+    ul {
+      a {
+        &:hover {
+          color: #475569;
+          background-color: #f8fafc;
+        }
+        &:focus {
+          color: #fff;
+          background-color: #000;
+        }
+        transition: 0.3s all;
+      }
+    }
+  }
+}
